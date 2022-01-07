@@ -1,0 +1,4 @@
+clang++
+/* %h %cpp -std=c++11 */
+%h -x
+%h c++-header
