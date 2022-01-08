@@ -29,9 +29,9 @@ public:
 
 };
 
-int main(int argc, char* argv[])
-{
-    WayTooLongWords p;
-    p.solve();
-    return 0;
-}
+// int main(int argc, char* argv[])
+// {
+//     WayTooLongWords p;
+//     p.solve();
+//     return 0;
+// }
