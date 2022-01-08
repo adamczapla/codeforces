@@ -3,7 +3,9 @@
 using namespace std;
 
 class Watermelon {
+
 public:
+
     inline void solve()
     {
         int w;
@@ -14,6 +16,7 @@ public:
             cout << "YES" << endl;
         }
     }
+
 };
 
 int main(int argc, char* argv[])
