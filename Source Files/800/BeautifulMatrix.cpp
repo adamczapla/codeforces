@@ -23,9 +23,9 @@ public:
 
 };
 
-int main(int argc, char* argv[])
-{
-    BeautifulMatrix p;
-    p.solve();
-    return 0;
-}
+// int main(int argc, char* argv[])
+// {
+//     BeautifulMatrix p;
+//     p.solve();
+//     return 0;
+// }
