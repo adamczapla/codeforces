@@ -30,9 +30,9 @@ public:
 
 };
 
-int main(int argc, char* argv[])
-{
-    DivisibilityProblem p;
-    p.solve();
-    return 0;
-}
+// int main(int argc, char* argv[])
+// {
+//     DivisibilityProblem p;
+//     p.solve();
+//     return 0;
+// }
