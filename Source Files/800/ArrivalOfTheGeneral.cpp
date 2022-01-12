@@ -42,9 +42,9 @@ public:
 
 };
 
-int main(int argc, char* argv[])
-{
-    ArrivalOfTheGeneral p;
-    p.solve();
-    return 0;
-}
+// int main(int argc, char* argv[])
+// {
+//     ArrivalOfTheGeneral p;
+//     p.solve();
+//     return 0;
+// }
