@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/* Example: 13/9 = Rest 4
+/* Example: 13/9 = R 4
  *
  * If I reduce the denominator by the remainder, the result is even,
  * because 13/5 = 3. Or I leave the denominator and instead increase
