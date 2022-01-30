@@ -21,20 +21,12 @@ public:
     template<typename T>
     inline static bool isPrime(T p)
     {
-        bool is = true;
-        if (p == 0 || p == 1) {
-            is = false;
-        } else {
-            for (T i = 2; i <= p / 2; ++i) {
-                if (p % i == 0) {
-                    is = true;
-                    break;
-                }
-            }
+        if (p == 0 || p == 1) return false;
+        for (T i = 2; i <= p / 2; ++i) {
+            if (p % i == 0) return false;
         }
-        return is;
+        return true;
     }
 };
-
 
 #endif  // UTILITY_H
