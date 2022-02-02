@@ -39,6 +39,17 @@ public:
         return digit;
     }
 
+    template<typename T>
+    inline static std::string toBin(T d)
+    {
+        std::string bin;
+        for (T i = sizeof(d) * 8 - 1; i >= 0; --i) {
+            bool b = d & (1LL << i);
+            bin += std::to_string(b);
+        }
+        return bin;
+    }
+
 };
 
 #endif  // UTILITY_H
