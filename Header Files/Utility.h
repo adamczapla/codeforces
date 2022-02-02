@@ -2,6 +2,8 @@
 #define UTILITY_H
 
 #include <algorithm>
+#include <string>
+#include <iostream>
 
 class Utility {
 
@@ -27,6 +29,16 @@ public:
         }
         return true;
     }
+
+    template<typename T>
+    inline static T toDigit(std::string s)
+    {
+        T digit = 0;
+        for (auto i : s)
+            digit = digit * 10 + i - '0';
+        return digit;
+    }
+
 };
 
 #endif  // UTILITY_H
