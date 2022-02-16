@@ -1,5 +1,5 @@
-#include <iostream>
 #include "SimpleLinkedList.h"
+#include <iostream>
 
 template <typename T>
 void SimpleLinkedList<T>::push_back(const T& val)
@@ -40,19 +40,19 @@ void SimpleLinkedList<T>::print()
     std::cout << std::endl;
 }
 
-int main(int argc, char* argv[])
-{
-    SimpleLinkedList<int> list;
-    list.push_back(2);
-    list.push_back(4);
-    list.push_back(8);
-    list.push_back(5);
-    list.print();
-    list.pop_front();
-    list.pop_front();
-    list.print();
-    list.push_back(7);
-    list.pop_front();
-    list.print();
-    return 0;
-}
+// int main(int argc, char* argv[])
+// {
+//     SimpleLinkedList<int> list;
+//     list.push_back(2);
+//     list.push_back(4);
+//     list.push_back(8);
+//     list.push_back(5);
+//     list.print();
+//     list.pop_front();
+//     list.pop_front();
+//     list.print();
+//     list.push_back(7);
+//     list.pop_front();
+//     list.print();
+//     return 0;
+// }
