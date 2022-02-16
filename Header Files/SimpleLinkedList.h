@@ -1,14 +1,14 @@
-#ifndef SIMPLELIST_H
-#define SIMPLELIST_H
+#ifndef SIMPLELINKEDLIST_H
+#define SIMPLELINKEDLIST_H
 
 template <typename T>
 class Node;
 
 template <typename T>
-class SimpleList {
+class SimpleLinkedList {
 public:
 
-    SimpleList() = default;
+    SimpleLinkedList() = default;
 
     void push_back(const T&);
     void pop_front();
@@ -23,7 +23,7 @@ private:
 template <typename T>
 class Node {
 
-    friend class SimpleList<T>;
+    friend class SimpleLinkedList<T>;
 
 public:
 
@@ -35,4 +35,4 @@ private:
     T val;
 };
 
-#endif  // SIMPLELIST_H
+#endif  // SIMPLELINKEDLIST_H
