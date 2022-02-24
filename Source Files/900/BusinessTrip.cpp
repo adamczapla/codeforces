@@ -13,11 +13,9 @@ public:
         int k;
         cin >> k;
 
-        vector<int> growth;
-        for (int i = 0; i < 12; ++i) {
-            int a;
+        vector<int> growth(k);
+        for (int& a : growth) {
             cin >> a;
-            growth.push_back(a);
         }
 
         sort(growth.rbegin(), growth.rend());
