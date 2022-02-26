@@ -1,4 +1,5 @@
 Debug/
+build/
 # Source\ Files/000/
 compile_commands.json
 
