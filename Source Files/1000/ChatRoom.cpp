@@ -11,22 +11,25 @@ public:
     {
         string s;
         cin >> s;
-        
-        const string hello("hello");
+
+        const string kHello("hello");
         string out;
+
         size_t beg = 0, pos = 0;
-        while ((beg = s.find(hello[pos], beg)) != string::npos 
-                && pos != hello.size()) {
-            out += hello[beg++];
+        while ((beg = s.find(kHello[pos], beg)) != string::npos
+               && pos != kHello.size()) {
+            out += s[beg++];
+            ++pos;
         }
-        cout << out << endl;
+
+        cout << (out == kHello ? "YES" : "NO");
     }
 
 };
 
-int main(int argc, char* argv[])
-{
-    ChatRoom p;
-    p.solve();
-    return 0;
-}
+// int main(int argc, char* argv[])
+// {
+//     ChatRoom p;
+//     p.solve();
+//     return 0;
+// }
