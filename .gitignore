@@ -1,5 +1,6 @@
 Debug/
 build/
+.vscode
 # Source\ Files/000/
 compile_commands.json
 
